@@ -2,10 +2,13 @@ body {
     color: antiquewhite;
     font-style: oblique;
     background-color: blue;
+    margin: 10px 20px 30px 40px; /* 10px topo | 20px direita | 30px embaixo | 40px esquerda */
+    padding: 10px 15px 20px 25px; /*  (topo, direita, embaixo, esquerda) */
 }
 
 a {
-    color: black;
+    color: blue;
+    text-decoration: none;
 }
 
 
@@ -13,3 +16,7 @@ a {
     font-style: italic;
 }
 
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
