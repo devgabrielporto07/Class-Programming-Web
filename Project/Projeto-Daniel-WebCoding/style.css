@@ -1,0 +1,25 @@
+img {
+    width: 400px;
+}
+
+.top {
+    margin-top: 2.5em;
+}
+
+.container {
+    max-width: 900px;
+}
+
+.border {
+    border-radius: 10%;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.ponto {
+    color: #ffffff;
+}
+
