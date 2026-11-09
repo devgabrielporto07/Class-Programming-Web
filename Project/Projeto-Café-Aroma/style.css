@@ -1,0 +1,201 @@
+/* ===== CORES E FONTE ===== */
+:root {
+    --cafe-escuro: #2f1b12;
+    --cafe: #c67c4e;
+    --creme: #f5efe6;
+    --branco: #ffffff;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--creme);
+    color: var(--cafe-escuro);
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background-color: var(--cafe-escuro);
+}
+
+.navbar-brand {
+    color: var(--branco) !important;
+    font-weight: 700;
+}
+
+.navbar-brand i {
+    color: var(--cafe);
+}
+
+.btn-carrinho {
+    position: relative;
+    color: var(--branco);
+    font-size: 1.4rem;
+}
+
+.btn-carrinho .badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--cafe);
+    font-size: 0.7rem;
+    border-radius: 50%;
+}
+
+/* ===== BANNER ===== */
+.banner {
+    padding: 90px 0;
+    color: var(--branco);
+    background: linear-gradient(rgba(47, 27, 18, 0.75), rgba(47, 27, 18, 0.75)),
+        url("https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1600&q=80") center / cover;
+}
+
+.banner .tag {
+    background-color: var(--cafe);
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 20px 0 10px;
+}
+
+/* ===== BOTÃO PADRÃO ===== */
+.btn-cafe {
+    background-color: var(--cafe);
+    color: var(--branco);
+    border-radius: 14px;
+    padding: 10px 24px;
+    font-weight: 600;
+}
+
+.btn-cafe:hover {
+    background-color: #a8633a;
+    color: var(--branco);
+}
+
+/* ===== CARDS DO CARDÁPIO ===== */
+.titulo-secao {
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.card-cafe {
+    background-color: var(--branco);
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-cafe:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(47, 27, 18, 0.15);
+}
+
+.card-cafe img {
+    height: 180px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.card-cafe .card-body {
+    padding: 12px 4px 4px;
+}
+
+.preco {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.btn-add {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--cafe);
+    color: var(--branco);
+    font-size: 1.2rem;
+}
+
+/* ===== MODAL ===== */
+.modal-content {
+    border: none;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.modal-img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.btn-fechar {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: var(--branco);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+/* ===== QUANTIDADE (modal e carrinho) ===== */
+.quantidade {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+}
+
+.btn-qtd {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    background-color: var(--branco);
+}
+
+.btn-qtd:hover {
+    background-color: var(--cafe);
+    color: var(--branco);
+}
+
+/* ===== CARRINHO ===== */
+.offcanvas {
+    background-color: var(--creme);
+}
+
+.item-carrinho {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: var(--branco);
+    border-radius: 16px;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+.item-carrinho img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.carrinho-rodape {
+    padding: 20px;
+    background-color: var(--branco);
+}
+
+.aviso {
+    font-size: 0.8rem;
+    margin-bottom: 12px;
+}
