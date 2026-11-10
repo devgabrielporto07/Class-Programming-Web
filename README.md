@@ -18,7 +18,7 @@ Cada pasta representa uma aula. Os arquivos `.pdf` são os materiais disponibili
 
 ## 🌐 Acesse o Projeto no GitHub Pages
 
-🔗 **[devgabrielporto07.github.io/Class-Programming-Web](https://devgabrielporto07.github.io/Class-Programming-Web)**
+🔗 **[Acesse clicando aqui](https://devgabrielporto07.github.io/Class-Programming-Web/Project/Projeto-Daniel-WebCoding/)**
 
 >As páginas HTML criadas nas aulas ficam disponíveis aqui via GitHub Pages.
 
